@@ -1,6 +1,6 @@
 {
   "name": "gabe-ansible",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Gabe Schuyler",
   "license": "Apache-2.0",
   "summary": "Install and configure Ansible controllers and targets on Redhat and Debian variants.",
@@ -8,6 +8,12 @@
   "project_page": "https://github.com/gabe-sky/puppet-ansible",
   "issues_url": "https://github.com/gabe-sky/puppet-ansible/issues",
   "tags": ["ansible","friends_not_food"],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.0.0"
+    }
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
